@@ -8,6 +8,9 @@ canvas{
     margin-bottom: 0;
 border:2px solid #222;
 }
+.container{
+    min-width: 1200px;
+}
 .drawing{
     height: 450px;
 }
