@@ -1,0 +1,56 @@
+*{margin:0;padding:0;
+box-sizing: border-box;
+}
+
+canvas{
+    display:block;
+    margin: 150px auto;
+    margin-bottom: 0;
+border:2px solid #222;
+}
+.drawing{
+    height: 450px;
+}
+.controls{
+    background-color: aquamarine;
+    
+}
+.controls .speed{
+    width: 40%;
+    float: left;
+    padding: 20px;
+    padding-left: 100px;
+   
+}
+.controls .speed>span{
+    padding: 10px;
+    color:#222;
+    font-size: 18px;
+}
+.controls .speed button{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: gray;
+    color:red;
+    font-size: 18px;
+}
+
+.controls .sort-types{
+    float: left;
+    width: 60%;
+    padding:20px;
+}
+.controls .sort-types button{
+    padding:10px;
+    border-radius: 5px;
+    border:none;
+    color: green;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: gray;
+}
+/*.clearfix{
+    clear:both;
+}*/
